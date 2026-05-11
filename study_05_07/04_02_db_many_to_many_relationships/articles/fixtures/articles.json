@@ -1,0 +1,41 @@
+[
+{
+    "model": "articles.article",
+    "pk": 1,
+    "fields": {
+        "user": 1,
+        "title": "제목1",
+        "content": "내용1",
+        "created_at": "2026-05-07T00:18:38.851Z",
+        "updated_at": "2026-05-07T00:18:38.851Z",
+        "like_users": [
+            1,
+            2
+        ]
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 2,
+    "fields": {
+        "user": 1,
+        "title": "제목2",
+        "content": "내용2",
+        "created_at": "2026-05-07T01:14:45.027Z",
+        "updated_at": "2026-05-07T01:14:45.027Z",
+        "like_users": []
+    }
+},
+{
+    "model": "articles.article",
+    "pk": 3,
+    "fields": {
+        "user": 2,
+        "title": "제목3",
+        "content": "내용3",
+        "created_at": "2026-05-07T01:15:51.356Z",
+        "updated_at": "2026-05-07T01:15:51.356Z",
+        "like_users": []
+    }
+}
+]
